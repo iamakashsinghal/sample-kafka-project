@@ -1,0 +1,11 @@
+server:
+  port: 9765
+  servlet:
+    context-path: /sample
+spring:
+  application:
+    name: spring-webclient-sample
+  cloud:
+    nacos:
+      discovery:
+        namespace: ${loma.nacos.server.namespace}

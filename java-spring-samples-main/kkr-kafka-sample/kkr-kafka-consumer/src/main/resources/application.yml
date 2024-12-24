@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: kkr-kafka-consumer
+
+  kafka:
+    bootstrap-servers: "151.106.120.82:9092"
+#    bootstrap-servers: "localhost:9092"
+    consumer:
+      group-id: kafka-group-id
+#      auto-offset-reset: earliest
+
+#consumer:
+#  topics:
+#    -

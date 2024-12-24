@@ -1,0 +1,15 @@
+server:
+  port: 9876
+  servlet:
+    context-path: /producer
+
+spring:
+  application:
+    name: kkr-kafka-producer
+  kafka:
+    bootstrap-servers: "151.106.120.82:9092"
+#    bootstrap-servers: "localhost:9092"
+
+
+
+
